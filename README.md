@@ -3,4 +3,4 @@ A handy bookmarklet toggle for designMode in a modern browser.
 
 // Original code via stackoverflow user srbrussell. https://stackoverflow.com/questions/4883190/combining-designmode-on-off-bookmarklets-into-one-toggling-bookmarklet
 
-[This link](javascript:(function () {if (document.documentElement.contentEditable === false || document.designMode === "off") {document.body.contentEditable='true';document.designMode='o‌​n';void 0;} else if (document.documentElement.contentEditable === true || document.designMode === "on") {document.body.contentEditable='false';document.designMode='‌​off';void 0;}})();) has no title attribute
+<div><a href="javascript:(function () {if (document.documentElement.contentEditable === false || document.designMode === "off") {document.body.contentEditable='true';document.designMode='o‌​n';void 0;} else if (document.documentElement.contentEditable === true || document.designMode === "on") {document.body.contentEditable='false';document.designMode='‌​off';void 0;}})();" title="Design mode">Drag this link to your bookmarks bar to install</a></div>
