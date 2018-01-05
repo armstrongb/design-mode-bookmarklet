@@ -5,7 +5,6 @@ A handy bookmarklet toggle for designMode in a modern browser.
 
 #### Bookmarklet
 
-[Design Mode](javascript:(function()\{if(document\.documentElement\.contentEditable===false||document\.designMode==="off")\{document\.body\.contentEditable='true';document\.designMode='o‌​n';void 0;\}else if(document\.documentElement\.contentEditable===true||document\.designMode==="on")\{document\.body\.contentEditable='false';document.designMode='‌​off';void 0;\}\})();)
-
+<a href="javascript:(function()\{if(document.documentElement.contentEditable===false||document.designMode==="off")\{document.body.contentEditable='true';document.designMode='o‌​n';void 0;}else if(document.documentElement.contentEditable===true||document.designMode==="on") \{document.body.contentEditable='false';document.designMode='‌​off';void 0;\}\})();">Design mode</a>
 
 ```<div><a href="javascript:(function () {if (document.documentElement.contentEditable === false || document.designMode === "off") {document.body.contentEditable='true';document.designMode='o‌​n';void 0;} else if (document.documentElement.contentEditable === true || document.designMode === "on") {document.body.contentEditable='false';document.designMode='‌​off';void 0;}})();">Design mode</a></div>```
